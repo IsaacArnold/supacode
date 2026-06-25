@@ -72,3 +72,8 @@ fastlane/test_output
 *.profraw
 .env
 .DS_Store
+
+# Installed agent skills (local-only; config lives in docs/agents/)
+.claude/skills/
+.agents/skills/
+skills-lock.json
